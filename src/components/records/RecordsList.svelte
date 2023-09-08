@@ -310,14 +310,14 @@
                     </th>
                 {/if}
 
-                {#if !hiddenColumns.includes("@id")}
+                <!-- {#if !hiddenColumns.includes("@id")}
                     <SortHeader class="col-type-text col-field-id" name="id" bind:sort>
                         <div class="col-header-content">
                             <i class={CommonHelper.getFieldTypeIcon("primary")} />
                             <span class="txt">id</span>
                         </div>
                     </SortHeader>
-                {/if}
+                {/if} -->
 
                 {#if isAuth}
                     {#if !hiddenColumns.includes("@username")}
@@ -412,7 +412,7 @@
                         </td>
                     {/if}
 
-                    {#if !hiddenColumns.includes("@id")}
+                    <!-- {#if !hiddenColumns.includes("@id")}
                         <td class="col-type-text col-field-id">
                             <div class="flex flex-gap-5">
                                 <div class="label">
@@ -435,7 +435,7 @@
                                 {/if}
                             </div>
                         </td>
-                    {/if}
+                    {/if} -->
 
                     {#if isAuth}
                         {#if !hiddenColumns.includes("@username")}
