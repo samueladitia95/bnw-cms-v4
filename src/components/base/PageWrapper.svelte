@@ -10,7 +10,7 @@
         <slot />
     </main>
 
-    <footer class="page-footer">
+    <!-- <footer class="page-footer">
         <a href={import.meta.env.PB_DOCS_URL} target="_blank" rel="noopener noreferrer">
             <i class="ri-book-open-line txt-sm" />
             <span class="txt">Docs</span>
@@ -19,5 +19,5 @@
         <a href={import.meta.env.PB_RELEASES} target="_blank" rel="noopener noreferrer" title="Releases">
             <span class="txt">PocketBase {import.meta.env.PB_VERSION}</span>
         </a>
-    </footer>
+    </footer> -->
 </div>
