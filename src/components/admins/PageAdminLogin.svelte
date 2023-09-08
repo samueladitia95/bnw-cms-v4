@@ -47,9 +47,9 @@
         <Field class="form-field required" name="password" let:uniqueId>
             <label for={uniqueId}>Password</label>
             <input type="password" id={uniqueId} bind:value={password} required />
-            <div class="help-block">
+            <!-- <div class="help-block">
                 <a href="/request-password-reset" class="link-hint" use:link>Forgotten password?</a>
-            </div>
+            </div> -->
         </Field>
 
         <button
