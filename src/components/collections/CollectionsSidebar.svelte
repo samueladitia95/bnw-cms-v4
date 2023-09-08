@@ -70,7 +70,7 @@
                 use:link
             >
                 <i class={CommonHelper.getCollectionTypeIcon(collection.type)} />
-                <span class="txt">{collection.name}</span>
+                <span class="txt">{collection.name.replaceAll("_", " ")}</span>
             </a>
         {:else}
             {#if normalizedSearch.length}
