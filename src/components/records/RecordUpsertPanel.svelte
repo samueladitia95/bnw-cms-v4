@@ -528,7 +528,7 @@
                 </div>
             {/if}
 
-            <Field class="form-field {!isNew ? 'readonly' : ''}" name="id" let:uniqueId>
+            <!-- <Field class="form-field {!isNew ? 'readonly' : ''}" name="id" let:uniqueId>
                 <label for={uniqueId}>
                     <i class={CommonHelper.getFieldTypeIcon("primary")} />
                     <span class="txt">id</span>
@@ -553,7 +553,7 @@
                     readonly={!isNew}
                     bind:value={record.id}
                 />
-            </Field>
+            </Field> -->
 
             {#if isAuthCollection}
                 <AuthFields bind:record {isNew} {collection} />
